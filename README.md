@@ -6,7 +6,7 @@ Idade: entre 0 e 150; Salário: maior que 0; Gênero: M, F ou Outro.
 
 Por último imprima os dados recebidos do usuário.
 
-Explicação:
+<h2>Explicação:</h2>
 
 O programa começa por importar a classe Scanner que será utilizada para a leitura dos dados digitados pelo usuário.
 
@@ -24,7 +24,7 @@ independente de estar em caixa alta ou baixa.
 
 ------------------------------------------------------------------------
 
-Sobre  equalsIgnoreCase():
+<h2>Sobre  equalsIgnoreCase():</h2>
 
 
 O método equalsIgnoreCase() é utilizado em Java para comparar duas strings sem considerar diferenças entre maiúsculas e minúsculas (ou seja, sem fazer distinção entre letras maiúsculas e minúsculas).
@@ -39,7 +39,7 @@ O método retorna um valor booleano true se as strings comparadas forem iguais, 
 
 <h2>O quê significa a linha de código: </h2>
 
-} while (!genero.equalsIgnoreCase("M") && !genero.equalsIgnoreCase("F") && !genero.equalsIgnoreCase("Outro"));
+<h2>} while (!genero.equalsIgnoreCase("M") && !genero.equalsIgnoreCase("F") && !genero.equalsIgnoreCase("Outro"));</h2>
 
 Essa linha de código é uma expressão booleana que faz parte da estrutura de repetição do-while, usada para garantir que o valor da variável genero seja válido.
 
@@ -54,7 +54,7 @@ Em resumo, essa expressão garante que o valor de genero seja uma das opções v
 
 ==========================================================================
 
-Resultado como é apresentado no Console:
+<h2>Resultado como é apresentado no Console:</h2>
 
 Informe sua idade:
 18
