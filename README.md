@@ -41,14 +41,21 @@ Resultado como é apresentado no Console:
 
 Informe sua idade:
 18
+
  Informe o salário:
 1.000
+
 Informe o gênero (M/F/Outro):
 F
+
  =================================
  ======Impressão de dados: ========
+ 
  Idade:18
+ 
  Salário:1000.0
+ 
  Gênero:F
+ 
  =================================
 
