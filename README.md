@@ -35,6 +35,23 @@ Sintaxe: string1.equalsIgnoreCase(string2)
 
 O método retorna um valor booleano true se as strings comparadas forem iguais, independentemente de sua capitalização, e false caso contrário.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2>O quê significa a linha de código: </h2>
+
+} while (!genero.equalsIgnoreCase("M") && !genero.equalsIgnoreCase("F") && !genero.equalsIgnoreCase("Outro"));
+
+Essa linha de código é uma expressão booleana que faz parte da estrutura de repetição do-while, usada para garantir que o valor da variável genero seja válido.
+
+Essa expressão verifica se a string armazenada na variável genero é diferente de "M" (não é "M") e ao mesmo tempo é diferente de "F" (não é "F") e diferente de "Outro" (não é "Outro"). Se a condição for verdadeira (ou seja, o valor de genero não é "M", nem "F", nem "Outro"), o bloco de código dentro do do-while é executado novamente, pedindo ao usuário que digite uma entrada válida para genero.
+
+O operador lógico && é usado para combinar as três condições de forma que todas elas devem ser verdadeiras para que a expressão inteira seja verdadeira.
+
+Em resumo, essa expressão garante que o valor de genero seja uma das opções válidas ("M", "F" ou "Outro"), e o do-while só será interrompido quando uma entrada válida for fornecida pelo usuário.
+
+
+
+
 ==========================================================================
 
 Resultado como é apresentado no Console:
