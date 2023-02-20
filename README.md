@@ -48,7 +48,7 @@ Informe sua idade:
 Informe o gênero (M/F/Outro):
 F
 
- =================================
+
  ======Impressão de dados: ========
  
  Idade:18
